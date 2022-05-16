@@ -318,10 +318,6 @@ transition: all 0.5s ;
 /* Media Querie */
 
 @media (min-width:541px) and (max-width: 720){
-    
-        
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 100px 100px 100px;
         
         
         
