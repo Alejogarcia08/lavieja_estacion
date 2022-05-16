@@ -34,12 +34,6 @@ li a{
     color: white;
     font-size: 1.2rem;
 }
-.ig__logo{
-    display: flex;
-
-    width: 30px;
-    height: 30px;
-}
 
 
 /* Medio */
@@ -60,18 +54,18 @@ li a{
 
 .titulo{
     display: flex;
-    margin-top: 400px;
+    /* margin-top: 400px; */
     font-family: Akshar, sans-serif;
     text-align: center;
     color: white;
-    text-shadow: -2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000;
+    font-size: 40px;
 
 }
 .texto__principal{
     font-family: Akshar, sans-serif;
     text-align:center;
     color: white;
-    text-shadow: -2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000;
+    font-size: 20px;
 
 } 
 
@@ -82,9 +76,23 @@ width: 100%;
 
 /* footer */
 .copyright{
-    
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    flex-wrap: wrap ;
     padding: 10px;
     background-color: rgb(209, 221, 231);
+}
+.ig__logo{
+
+    width: 30px;
+    height: 30px;
+}
+.titulo__footer{
+    display: flex;
+    flex-grow: 1;
 }
 
 /* PAGE--CASA */
@@ -309,8 +317,28 @@ transition: all 0.5s ;
 
 /* Media Querie */
 
-@media (min-width:541px) and (max-width: 720){}
+@media (min-width:541px) and (max-width: 720){
+    
+        
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 100px 100px 100px;
+        
+        
+        
+}
 
-@media (min-width: 320px) and (max-width:540px){}
+@media (min-width: 320px) and (max-width:540px){ 
+    .contenedor__clientes{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        grid-template-rows: 100px 100px 100px;
+        background-position: center;
+        gap: 5px;
+        }
 
+        li a{
+            font-size: 0.55rem;
+        }
+    
 
+    }
