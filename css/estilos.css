@@ -17,7 +17,7 @@ top: 0;
 
 .nav-item{
     text-decoration: none;
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 1.2rem;
     padding: 10px;
     flex-grow: 1;
@@ -32,7 +32,7 @@ top: 0;
 .portada{
     display: flex;
     flex-direction: column;
-    background-image: url(../recursos/1.jpeg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.438),rgba(0, 0, 0, 0.438)), url(../recursos/1.jpeg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
@@ -50,7 +50,7 @@ top: 0;
     text-align: center;
     color: white;
     font-size: 40px;
-
+    
 }
 .texto__principal{
     font-family: Akshar, sans-serif;
@@ -103,7 +103,7 @@ width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: inherit;  
-    transition: all 0.5s ;
+    
 }
 .fotos__patio1:hover{
     transform: scale(1.2);
@@ -165,14 +165,18 @@ display: flex;
 .portada__contacto{
     display: flex;
     flex-direction: column;
-    background-image: url(../recursos/pileta.jpeg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.438),rgba(0, 0, 0, 0.438)), url(../recursos/WhatsApp\ Image\ 2022-04-25\ at\ 9.04.16\ PM.jpeg);
 background-attachment: fixed;
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
-height: 600px;
+height: 800px;
+margin:auto;
+padding:auto;
 justify-content: center;
 align-items: center;
+
+
 }
 .titulo__contacto{
     display: flex;
@@ -187,8 +191,8 @@ align-items: center;
     flex-wrap: wrap;
     align-items: center;
     max-width: 220px;
-    flex: 1 0 120px;
-    margin-left: auto;
+    flex: 2 1 100px;
+    /* margin-left: auto; */
 padding: 8px 16px;
 border: none;
 color: #f2f2f2;
@@ -216,16 +220,17 @@ label{
 
 .contenedor__clientes{
 display: grid;
-grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-grid-template-rows: 220px;
+grid-template-columns: 1.5fr 1.5fr 1.5fr ;
+grid-template-rows: 350px 350px ;
 background-position: center;
 gap: 10px;
 }
+
 .img1__grid{
     
     background-image: url(../recursos/c1.jpeg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:cover;
     background-position: inherit;   
 background-color: aqua;
 transition: all 0.5s ;
@@ -281,19 +286,31 @@ transition: all 0.5s ;
     transform: scale(1.2);
 }
 
+.img6__grid{
+    background-color: blueviolet;
+    background-image: url(../recursos/parrilero.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: inherit;
+    transition: all 0.5s ;
+}
 
+.img6__grid:hover{
+    transform: scale(1.2);
+}
 .titulo__clientes{
     height: 175px;
     font-family: akshar, sans-serif;
     text-align: center;
     color: white;
-    background-image: url(../recursos/pileta.jpeg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.438),rgba(0, 0, 0, 0.438)), url(../recursos/pileta.jpeg);
     padding: 10px 10px 10px 10px;
     margin: 10px 10px 10px 10px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+
 }
 
 /* PAGE__SOBRENOSOTROS */
