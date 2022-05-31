@@ -1,0 +1,31 @@
+.copyright{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    flex-wrap: wrap ;
+    padding: 10px;
+    background-color: $color-footer;
+    font-family: akshar, sans-serif;
+
+}
+.ig__logo{
+
+    width: 30px;
+    height: 30px;
+}
+.titulo__footer{
+    display: flex;
+    flex-grow: 1;
+}
+/* footer */
+/* .copyright{
+    padding: 10px;
+    background-color: $color-footer;
+    min-height: 75px;
+    display: flex;
+    align-items: center;
+    font-family: akshar, sans-serif;
+
+} */

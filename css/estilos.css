@@ -1,8 +1,3 @@
-* {
-  margin: 0;
-  padding: 0; }
-
-/* INDEX */
 header {
   position: sticky;
   top: 0;
@@ -12,7 +7,7 @@ header {
   align-items: center;
   justify-content: end;
   flex-wrap: wrap;
-  background-color: #66938c; }
+  background-color: rgba(102, 147, 140, 0.863); }
   header .nav-item {
     text-decoration: none;
     font-size: 1.2rem;
@@ -21,7 +16,7 @@ header {
     font-family: Akshar, sans-serif;
     list-style: none; }
 
-/* Medio */
+/* index */
 .portada {
   display: flex;
   flex-direction: column;
@@ -30,12 +25,11 @@ header {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 600px;
+  height: 60rem;
   justify-content: center;
   align-items: center; }
   .portada .titulo {
     display: flex;
-    /* margin-top: 400px; */
     font-family: Akshar, sans-serif;
     text-align: center;
     color: white;
@@ -50,7 +44,123 @@ header {
   margin-top: 10px;
   width: 100%; }
 
-/* footer */
+/* casa */
+.video__casa {
+  display: flex;
+  justify-content: center; }
+
+/* contacto */
+.portada__contacto {
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.438), rgba(0, 0, 0, 0.438)), url(../recursos/frente.jpeg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 800px;
+  margin: auto;
+  padding: auto;
+  justify-content: center;
+  align-items: center; }
+
+.titulo__contacto {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  font-family: Akshar, sans-serif; }
+
+.newsletter {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  max-width: 220px;
+  flex: 2 1 100px;
+  padding: 8px 16px;
+  border: none;
+  color: #f2f2f2;
+  text-transform: uppercase;
+  border-radius: 2px; }
+  .newsletter label {
+    display: flex;
+    font-family: Akshar,sans-serif;
+    color: white; }
+
+/* PAGE--CLIENTES */
+.titulo__clientes {
+  height: 175px;
+  font-family: akshar, sans-serif;
+  text-align: center;
+  color: white;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.438), rgba(0, 0, 0, 0.438)), url(../recursos/pileta.jpeg);
+  padding: 10px 10px 10px 10px;
+  margin: 10px 10px 10px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; }
+
+.contenedor__clientes {
+  display: grid;
+  grid-template-columns: 1.5fr 1.5fr 1.5fr;
+  grid-template-rows: 350px 350px;
+  background-position: center;
+  gap: 10px; }
+
+.img1__grid {
+  background-image: url("../recursos/c1.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: inherit;
+  transition: all 0.5s; }
+  .img1__grid:hover {
+    transform: scale(1.2); }
+
+.img2__grid {
+  background-image: url("../recursos/c2.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: inherit;
+  transition: all 0.5s; }
+  .img2__grid:hover {
+    transform: scale(1.2); }
+
+.img3__grid {
+  background-image: url("../recursos/c3.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: inherit;
+  transition: all 0.5s; }
+  .img3__grid:hover {
+    transform: scale(1.2); }
+
+.img4__grid {
+  background-image: url("../recursos/c4.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: inherit;
+  transition: all 0.5s; }
+  .img4__grid:hover {
+    transform: scale(1.2); }
+
+.img5__grid {
+  background-image: url("../recursos/c5.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: inherit;
+  transition: all 0.5s; }
+  .img5__grid:hover {
+    transform: scale(1.2); }
+
+.img6__grid {
+  background-image: url("../recursos/parrilero.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: inherit;
+  transition: all 0.5s; }
+  .img6__grid:hover {
+    transform: scale(1.2); }
+
 .copyright {
   margin: auto;
   display: flex;
@@ -59,7 +169,8 @@ header {
   justify-content: end;
   flex-wrap: wrap;
   padding: 10px;
-  background-color: #d1dde7; }
+  background-color: #485039;
+  font-family: akshar, sans-serif; }
 
 .ig__logo {
   width: 30px;
@@ -69,6 +180,97 @@ header {
   display: flex;
   flex-grow: 1; }
 
+/* footer */
+/* .copyright{
+    padding: 10px;
+    background-color: $color-footer;
+    min-height: 75px;
+    display: flex;
+    align-items: center;
+    font-family: akshar, sans-serif;
+
+} */
+* {
+  margin: 0;
+  padding: 0; }
+
+/* INDEX */
+/* 
+header{
+    position: sticky;
+top: 0;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    flex-wrap: wrap;
+    background-color: $color-header;
+    
+        .nav-item{
+        text-decoration: none;
+        font-size: 1.2rem;
+        padding: 10px;
+        flex-grow: 1;
+        font-family: Akshar, sans-serif;
+        list-style: none;
+}
+} */
+/* Medio */
+/* .portada{
+    display: flex;
+    flex-direction: column;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.438),rgba(0, 0, 0, 0.438)), url(../recursos/1.jpeg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+    
+    .titulo{
+        display: flex;
+        
+        font-family: Akshar, sans-serif;
+        text-align: center;
+        color: $color-fuente;
+        font-size: 40px;
+        
+    }
+    .texto__principal{
+        font-family: Akshar, sans-serif;
+        text-align:center;
+        color: $color-fuente;
+        font-size: 20px;
+    
+    } 
+}
+ */
+/* .mapa{
+margin-top: 10px;
+width: 100%;
+} */
+/* footer */
+/* .copyright{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    flex-wrap: wrap ;
+    padding: 10px;
+    background-color: rgb(209, 221, 231);
+}
+.ig__logo{
+
+    width: 30px;
+    height: 30px;
+}
+.titulo__footer{
+    display: flex;
+    flex-grow: 1;
+} */
 /* PAGE--CASA */
 /* .fotos__casa{
     display: grid;
@@ -138,135 +340,159 @@ font-family: akshar, sans-serif;
   justify-content: center; }
 
 /* PAGE--CONTACTOS */
-.portada__contacto {
-  display: flex;
-  flex-direction: column;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.438), rgba(0, 0, 0, 0.438)), url(../recursos/frente.jpeg);
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  height: 800px;
-  margin: auto;
-  padding: auto;
-  justify-content: center;
-  align-items: center; }
-
-.titulo__contacto {
-  display: flex;
-  flex-direction: row;
-  color: white;
-  font-family: Akshar, sans-serif; }
-
-.newsletter {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  max-width: 220px;
-  flex: 2 1 100px;
-  /* margin-left: auto; */
-  padding: 8px 16px;
-  border: none;
-  color: #f2f2f2;
-  text-transform: uppercase;
-  border-radius: 2px; }
-  .newsletter label {
+/* .portada__contacto{
     display: flex;
-    font-family: Akshar,sans-serif;
-    color: white; }
+    flex-direction: column;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.438),rgba(0, 0, 0, 0.438)), url(../recursos/frente.jpeg);
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+height: 800px;
+margin:auto;
+padding:auto;
+justify-content: center;
+align-items: center;
 
+
+}
+.titulo__contacto{
+    display: flex;
+    flex-direction: row;
+    color: $color-fuente;
+    font-family: Akshar, sans-serif;
+
+}
+
+.newsletter{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    max-width: 220px;
+    flex: 2 1 100px;
+
+    padding: 8px 16px;
+    border: none;
+    color: #f2f2f2;
+    text-transform: uppercase;
+    border-radius: 2px;
+    label{
+        display: flex;
+        font-family: Akshar,sans-serif ;
+        color: $color-fuente;
+}
+} */
 /* footer */
-.copyright {
-  padding: 10px;
-  background-color: #485039;
-  min-height: 75px;
-  display: flex;
-  align-items: center;
-  font-family: akshar, sans-serif; }
+/* .copyright{
+    padding: 10px;
+    background-color: $color-footer;
+    min-height: 75px;
+    display: flex;
+    align-items: center;
+    font-family: akshar, sans-serif;
 
+} */
 /* PAGE--CLIENTES */
-.contenedor__clientes {
-  display: grid;
-  grid-template-columns: 1.5fr 1.5fr 1.5fr;
-  grid-template-rows: 350px 350px;
-  background-position: center;
-  gap: 10px; }
+/*     .contenedor__clientes{
+    display: grid;
+    grid-template-columns: 1.5fr 1.5fr 1.5fr ;
+    grid-template-rows: 350px 350px ;
+    background-position: center;
+    gap: 10px;
 
-.titulo__clientes {
-  height: 175px;
-  font-family: akshar, sans-serif;
-  text-align: center;
-  color: white;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.438), rgba(0, 0, 0, 0.438)), url(../recursos/pileta.jpeg);
-  padding: 10px 10px 10px 10px;
-  margin: 10px 10px 10px 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column; }
+}
+.titulo__clientes{
+    height: 175px;
+    font-family: akshar, sans-serif;
+    text-align: center;
+    color: $color-fuente;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.438),rgba(0, 0, 0, 0.438)), url(../recursos/pileta.jpeg);
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+} */
+/* .img1__grid{
+    
+    background-image: url(../recursos/c1.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: inherit;   
+transition: all 0.5s ;
+&:hover{
+    transform: scale(1.2);
+}
+}
 
-.img1__grid {
-  background-image: url(../recursos/c1.jpeg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: inherit;
-  transition: all 0.5s; }
-  .img1__grid:hover {
-    transform: scale(1.2); }
+.img2__grid{
+background-image: url(../recursos/c2.jpeg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: inherit;
+transition: all 0.5s ;
+&:hover{
+    transform: scale(1.2);
+}
 
-.img2__grid {
-  background-image: url(../recursos/c2.jpeg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: inherit;
-  transition: all 0.5s; }
-  .img2__grid:hover {
-    transform: scale(1.2); }
+}
 
-.img3__grid {
-  background-image: url(../recursos/c3.jpeg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: inherit;
-  transition: all 0.5s; }
-  .img3__grid:hover {
-    transform: scale(1.2); }
 
-.img4__grid {
-  background-image: url(../recursos/c4.jpeg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: inherit;
-  transition: all 0.5s; }
-  .img4__grid:hover {
-    transform: scale(1.2); }
+.img3__grid{
+background-image: url(../recursos/c3.jpeg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: inherit;
+transition: all 0.5s ;
+&:hover{
+    transform: scale(1.2);
+}
+}
 
-.img5__grid {
-  background-image: url(../recursos/c5.jpeg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: inherit;
-  transition: all 0.5s; }
-  .img5__grid:hover {
-    transform: scale(1.2); }
 
-.img6__grid {
-  background-image: url(../recursos/parrilero.jpeg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: inherit;
-  transition: all 0.5s; }
-  .img6__grid:hover {
-    transform: scale(1.2); }
 
+.img4__grid{
+    background-image: url(../recursos/c4.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: inherit;
+transition: all 0.5s ;
+&:hover{
+    transform: scale(1.2);
+}
+}
+
+.img5__grid{
+background-image: url(../recursos/c5.jpeg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: inherit;
+transition: all 0.5s ;
+&:hover{
+    transform: scale(1.2);
+}
+}
+
+.img6__grid{
+    background-image: url(../recursos/parrilero.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: inherit;
+    transition: all 0.5s ;
+    &:hover{
+    transform: scale(1.2);
+}
+} */
 /* PAGE__SOBRENOSOTROS */
-.titulo__sobrenosotros {
-  text-align: center;
-  color: white;
-  background-color: #8fcac1;
-  font-family: akshar, sans-serif;
-  padding: 10px 10px 10px 10px; }
+/* .titulo__sobrenosotros{
 
+    text-align: center;
+    color: $color-fuente;
+    background-color: rgb(143, 202, 193);
+    font-family: akshar, sans-serif;
+    padding: 10px 10px 10px 10px;
+} */
 /* Media Querie */
 @media (min-width: 320px) and (max-width: 540px) {
   .contenedor__clientes {

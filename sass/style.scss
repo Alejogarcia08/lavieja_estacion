@@ -1,11 +1,12 @@
 @import'variables';
 @import'header';
 @import'main';
+@import'footer';
 *{margin: 0;
     padding: 0;
 }
 /* INDEX */
-
+/* 
 header{
     position: sticky;
 top: 0;
@@ -25,13 +26,13 @@ top: 0;
         font-family: Akshar, sans-serif;
         list-style: none;
 }
-}
+} */
 
 
 
 /* Medio */
 
-.portada{
+/* .portada{
     display: flex;
     flex-direction: column;
     background-image:linear-gradient(rgba(0, 0, 0, 0.438),rgba(0, 0, 0, 0.438)), url(../recursos/1.jpeg);
@@ -45,7 +46,7 @@ top: 0;
     
     .titulo{
         display: flex;
-        /* margin-top: 400px; */
+        
         font-family: Akshar, sans-serif;
         text-align: center;
         color: $color-fuente;
@@ -60,14 +61,14 @@ top: 0;
     
     } 
 }
-
-.mapa{
+ */
+/* .mapa{
 margin-top: 10px;
 width: 100%;
-}
+} */
 
 /* footer */
-.copyright{
+/* .copyright{
     margin: auto;
     display: flex;
     flex-direction: row;
@@ -85,7 +86,7 @@ width: 100%;
 .titulo__footer{
     display: flex;
     flex-grow: 1;
-}
+} */
 
 /* PAGE--CASA */
 
@@ -163,7 +164,7 @@ display: flex;
 
 
 /* PAGE--CONTACTOS */
-.portada__contacto{
+/* .portada__contacto{
     display: flex;
     flex-direction: column;
     background-image:linear-gradient(rgba(0, 0, 0, 0.438),rgba(0, 0, 0, 0.438)), url(../recursos/frente.jpeg);
@@ -193,7 +194,7 @@ align-items: center;
     align-items: center;
     max-width: 220px;
     flex: 2 1 100px;
-    /* margin-left: auto; */
+
     padding: 8px 16px;
     border: none;
     color: #f2f2f2;
@@ -204,11 +205,11 @@ align-items: center;
         font-family: Akshar,sans-serif ;
         color: $color-fuente;
 }
-}
+} */
 
 
 /* footer */
-.copyright{
+/* .copyright{
     padding: 10px;
     background-color: $color-footer;
     min-height: 75px;
@@ -216,11 +217,11 @@ align-items: center;
     align-items: center;
     font-family: akshar, sans-serif;
 
-}
+} */
 
 /* PAGE--CLIENTES */
 
-    .contenedor__clientes{
+/*     .contenedor__clientes{
     display: grid;
     grid-template-columns: 1.5fr 1.5fr 1.5fr ;
     grid-template-rows: 350px 350px ;
@@ -240,9 +241,9 @@ align-items: center;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-}
+} */
 
-.img1__grid{
+/* .img1__grid{
     
     background-image: url(../recursos/c1.jpeg);
     background-repeat: no-repeat;
@@ -311,19 +312,19 @@ transition: all 0.5s ;
     &:hover{
     transform: scale(1.2);
 }
-}
+} */
 
 
 /* PAGE__SOBRENOSOTROS */
 
-.titulo__sobrenosotros{
+/* .titulo__sobrenosotros{
 
     text-align: center;
     color: $color-fuente;
     background-color: rgb(143, 202, 193);
     font-family: akshar, sans-serif;
     padding: 10px 10px 10px 10px;
-}
+} */
 
 /* Media Querie */
 

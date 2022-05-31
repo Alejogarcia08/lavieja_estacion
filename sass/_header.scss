@@ -1,0 +1,20 @@
+header{
+    position: sticky;
+top: 0;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    flex-wrap: wrap;
+    background-color: $color-header;
+    
+        .nav-item{
+        text-decoration: none;
+        font-size: 1.2rem;
+        padding: 10px;
+        flex-grow: 1;
+        font-family: Akshar, sans-serif;
+        list-style: none;
+}
+} 
