@@ -36,6 +36,10 @@
     width: 100%;
     }
 /* casa */
+.titulo__lacasa{
+    @extend .font;
+    text-align:center;
+}
 .video__casa{
     display: flex;
         justify-content: center;

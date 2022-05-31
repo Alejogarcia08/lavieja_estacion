@@ -16,7 +16,7 @@ header {
     font-family: Akshar, sans-serif;
     list-style: none; }
 
-.font, .portada .titulo, .portada .texto__principal, .titulo__contacto, .newsletter label, .titulo__clientes, .titulo__sobrenosotros, .texto__nosotros {
+.font, .portada .titulo, .portada .texto__principal, .titulo__lacasa, .titulo__contacto, .newsletter label, .titulo__clientes, .titulo__sobrenosotros, .texto__nosotros {
   font-family: Akshar, sans-serif; }
 
 /* index */
@@ -46,6 +46,9 @@ header {
   width: 100%; }
 
 /* casa */
+.titulo__lacasa {
+  text-align: center; }
+
 .video__casa {
   display: flex;
   justify-content: center; }
