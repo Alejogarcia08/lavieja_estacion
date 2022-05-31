@@ -16,6 +16,9 @@ header {
     font-family: Akshar, sans-serif;
     list-style: none; }
 
+.font, .portada .titulo, .portada .texto__principal, .titulo__contacto, .newsletter label, .titulo__clientes, .titulo__sobrenosotros, .texto__nosotros {
+  font-family: Akshar, sans-serif; }
+
 /* index */
 .portada {
   display: flex;
@@ -30,15 +33,13 @@ header {
   align-items: center; }
   .portada .titulo {
     display: flex;
-    font-family: Akshar, sans-serif;
+    font-size: 3rem;
     text-align: center;
-    color: white;
-    font-size: 40px; }
+    color: white; }
   .portada .texto__principal {
-    font-family: Akshar, sans-serif;
+    font-size: 1.5rem;
     text-align: center;
-    color: white;
-    font-size: 20px; }
+    color: white; }
 
 .mapa {
   margin-top: 10px;
@@ -66,9 +67,9 @@ header {
 
 .titulo__contacto {
   display: flex;
-  flex-direction: row;
-  color: white;
-  font-family: Akshar, sans-serif; }
+  font-size: 2.5rem;
+  text-align: center;
+  color: white; }
 
 .newsletter {
   display: flex;
@@ -83,13 +84,11 @@ header {
   border-radius: 2px; }
   .newsletter label {
     display: flex;
-    font-family: Akshar,sans-serif;
     color: white; }
 
 /* PAGE--CLIENTES */
 .titulo__clientes {
   height: 175px;
-  font-family: akshar, sans-serif;
   text-align: center;
   color: white;
   background-image: linear-gradient(rgba(0, 0, 0, 0.438), rgba(0, 0, 0, 0.438)), url(../recursos/pileta.jpeg);
@@ -160,6 +159,17 @@ header {
   transition: all 0.5s; }
   .img6__grid:hover {
     transform: scale(1.2); }
+
+/* PAGE__SOBRENOSOTROS */
+.titulo__sobrenosotros {
+  font-size: 3rem;
+  text-align: center;
+  color: white;
+  background-color: #8fcac1;
+  padding: 10px 10px 10px 10px; }
+
+.texto__nosotros {
+  font-size: 1.25rem; }
 
 .copyright {
   margin: auto;
@@ -335,10 +345,11 @@ font-family: akshar, sans-serif;
     grid-row: 2/3;
     text-align: center;
     font-family: akshar, sans-serif; */
-.video__casa {
-  display: flex;
-  justify-content: center; }
-
+/* .video__casa{
+display: flex;
+    justify-content: center;
+    
+} */
 /* PAGE--CONTACTOS */
 /* .portada__contacto{
     display: flex;

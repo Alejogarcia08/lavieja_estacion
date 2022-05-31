@@ -1,3 +1,11 @@
+.font{
+    font-family: Akshar, sans-serif;
+}
+@mixin font-size ($size){
+    font-size: $size ;
+    text-align:center;
+    color: $color-fuente;
+}
 /* index */
 .portada{
     display: flex;
@@ -13,18 +21,12 @@
     
     .titulo{
         display: flex;
-    
-        font-family: Akshar, sans-serif;
-        text-align: center;
-        color: $color-fuente;
-        font-size: 40px;
-        
+        @include font-size(3rem)
+        @extend .font;
     }
     .texto__principal{
-        font-family: Akshar, sans-serif;
-        text-align:center;
-        color: $color-fuente;
-        font-size: 20px;
+        @extend .font;
+        @include font-size(1.5rem)
     
     } 
     
@@ -59,9 +61,8 @@ align-items: center;
 }
 .titulo__contacto{
     display: flex;
-    flex-direction: row;
-    color: $color-fuente;
-    font-family: Akshar, sans-serif;
+    @include font-size(2.5rem)
+    @extend .font;
 
 }
 
@@ -78,8 +79,8 @@ align-items: center;
     border-radius: 2px;
     label{
         display: flex;
-        font-family: Akshar,sans-serif ;
         color: $color-fuente; 
+        @extend .font;
 }
     input{
         
@@ -89,7 +90,6 @@ align-items: center;
 /* PAGE--CLIENTES */
 .titulo__clientes{
         height: 175px;
-        font-family: akshar, sans-serif;
         text-align: center;
         color: $color-fuente;
         background-image:linear-gradient(rgba(0, 0, 0, 0.438),rgba(0, 0, 0, 0.438)), url(../recursos/pileta.jpeg);
@@ -99,6 +99,7 @@ align-items: center;
         align-items: center;
         justify-content: center;
         flex-direction: column;
+        @extend .font;
     }
     
 .contenedor__clientes{
@@ -121,4 +122,18 @@ $imagenes: (img1: c1, img2: c2, img3: c3, img4: c4, img5: c5, img6: parrilero);
             &:hover{
             transform: scale(1.2);}
 }
+}
+
+/* PAGE__SOBRENOSOTROS */
+.titulo__sobrenosotros{
+
+    @include font-size(3rem)
+    background-color: rgb(143, 202, 193);
+    padding: 10px 10px 10px 10px;
+    @extend .font;
+}
+
+.texto__nosotros{
+    @extend .font;
+    font-size: 1.25rem;
 }
