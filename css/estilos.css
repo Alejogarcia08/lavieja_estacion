@@ -1,13 +1,13 @@
 header {
-  position: sticky;
-  top: 0;
+  /*  position: sticky;
+top: 0; */
   margin: auto;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: end;
   flex-wrap: wrap;
-  background-color: rgba(102, 147, 140, 0.863); }
+  background-color: rgba(255, 255, 255, 0); }
   header .nav-item {
     text-decoration: none;
     font-size: 1.2rem;
@@ -47,11 +47,15 @@ header {
 
 /* casa */
 .titulo__lacasa {
-  text-align: center; }
+  text-align: center;
+  padding: 1rem; }
 
 .video__casa {
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  padding-top: 0.5rem;
+  width: 100%;
+  height: 50rem; }
 
 /* contacto */
 .portada__contacto {
@@ -182,7 +186,7 @@ header {
   justify-content: end;
   flex-wrap: wrap;
   padding: 10px;
-  background-color: #485039;
+  background-color: rgba(102, 147, 140, 0.863);
   font-family: akshar, sans-serif; }
 
 .ig__logo {

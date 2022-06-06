@@ -1,6 +1,6 @@
 header{
-    position: sticky;
-top: 0;
+/*  position: sticky;
+top: 0; */
     margin: auto;
     display: flex;
     flex-direction: row;
@@ -16,5 +16,6 @@ top: 0;
         flex-grow: 1;
         font-family: Akshar, sans-serif;
         list-style: none;
+        
 }
 } 
