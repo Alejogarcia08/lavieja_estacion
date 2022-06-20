@@ -1,23 +1,24 @@
 .copyright{
     margin: auto;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
-    justify-content: end;
-    flex-wrap: wrap ;
-    padding: 10px;
+/*   justify-content: end;
+    flex-wrap: wrap ; */
+    padding: 1rem;
     background-color: $color-footer;
     font-family: akshar, sans-serif;
 
 }
 .ig__logo{
 
-    width: 30px;
-    height: 30px;
+    width: 2rem;
+    height: 2rem;
 }
 .titulo__footer{
     display: flex;
-    flex-grow: 1;
+    flex-grow: 1; 
+    padding: 1rem;
 }
 /* footer */
 /* .copyright{
